@@ -19,8 +19,14 @@ public class DemoController {
 	
 	@RequestMapping("/hello")
 	public String hello() {
-		log.info("invoking rest service");
+		log.info("invoking rest service...");
 		return "Hello Surfer!!!";
+	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		log.info("invoking login module...");
+		return "Login View Here";
 	}
 }
 
