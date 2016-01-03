@@ -25,7 +25,7 @@ public class DemoController {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/")
 	public String hello() {
 		log.info("invoking rest service...");
 		return "Hello Surfer!!!";
